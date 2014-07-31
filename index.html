@@ -1,27 +1,61 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <script src="jquery.js"></script>
     <script src="data_generator.js"></script>
+    <script src ="jquery.timeago.js"></script>
   </head>
-  <body>
+  <body class="twittler-wrapper">
+    
     <script>
-
       $(document).ready(function(){
         var $body = $('body');
         $body.html('');
 
+      var showTweet = function(){
         var index = streams.home.length - 1;
         while(index >= 0){
           var tweet = streams.home[index];
-          var $tweet = $('<div></div>');
-          $tweet.text('@' + tweet.user + ': ' + tweet.message);
+          var message = tweet.message; 
+          var user = '@' + tweet.user; 
+          var tweetTimeStamp = jQuery.timeago(tweet.created_at);
+
+          var $tweet = $(
+            '<div class = "one-tweet row span7">' +
+              '<div class = "row">' +
+                '<div class = "userName span3"><a href="#" class = '+ user +'>' +
+                  user +
+                '</a></div>'+
+                '<div class = "tweetTime span3 text-right">'+
+                  tweetTimeStamp + 
+                '</div>'+
+              '</div>'+
+              '<div class = "row">'+
+                '<p class = "span7">'+
+                  message+ 
+                '</p>'+
+                '</div>'+
+              '</div>'+
+            '</div>'
+            );
+          
           $tweet.appendTo($body);
           index -= 1;
         }
+      }
+
+      showTweet(); 
 
       });
 
+      
     </script>
+    
+    <div>
+      
+
+    </div> 
   </body>
 </html>
