@@ -1,0 +1,115 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body:before {
+  content: '';
+  display: inline-block;
+  background-image: deprecated-webkit-gradient(linear, left top, left bottom, transparent 0, #eeeeee 0, #eeeeee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eeeeee 8.5298%, #eeeeee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eeeeee 17.05961%, #eeeeee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eeeeee 25.58941%, #eeeeee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eeeeee 34.11922%, #eeeeee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eeeeee 42.64902%, #eeeeee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eeeeee 51.17883%, #eeeeee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eeeeee 59.70863%, #eeeeee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eeeeee 68.23843%, #eeeeee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eeeeee 76.76824%, #eeeeee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eeeeee 85.29804%, #eeeeee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eeeeee 93.82785%, #eeeeee 100.0%, transparent 100.0%);
+  background-image: -webkit-linear-gradient(left, transparent 0, #eeeeee 0, #eeeeee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eeeeee 8.5298%, #eeeeee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eeeeee 17.05961%, #eeeeee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eeeeee 25.58941%, #eeeeee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eeeeee 34.11922%, #eeeeee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eeeeee 42.64902%, #eeeeee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eeeeee 51.17883%, #eeeeee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eeeeee 59.70863%, #eeeeee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eeeeee 68.23843%, #eeeeee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eeeeee 76.76824%, #eeeeee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eeeeee 85.29804%, #eeeeee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eeeeee 93.82785%, #eeeeee 100.0%, transparent 100.0%);
+  background-image: -moz-linear-gradient(left, transparent 0, #eeeeee 0, #eeeeee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eeeeee 8.5298%, #eeeeee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eeeeee 17.05961%, #eeeeee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eeeeee 25.58941%, #eeeeee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eeeeee 34.11922%, #eeeeee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eeeeee 42.64902%, #eeeeee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eeeeee 51.17883%, #eeeeee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eeeeee 59.70863%, #eeeeee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eeeeee 68.23843%, #eeeeee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eeeeee 76.76824%, #eeeeee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eeeeee 85.29804%, #eeeeee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eeeeee 93.82785%, #eeeeee 100.0%, transparent 100.0%);
+  background-image: -ms-linear-gradient(left, transparent 0, #eeeeee 0, #eeeeee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eeeeee 8.5298%, #eeeeee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eeeeee 17.05961%, #eeeeee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eeeeee 25.58941%, #eeeeee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eeeeee 34.11922%, #eeeeee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eeeeee 42.64902%, #eeeeee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eeeeee 51.17883%, #eeeeee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eeeeee 59.70863%, #eeeeee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eeeeee 68.23843%, #eeeeee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eeeeee 76.76824%, #eeeeee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eeeeee 85.29804%, #eeeeee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eeeeee 93.82785%, #eeeeee 100.0%, transparent 100.0%);
+  background-image: -o-linear-gradient(left, transparent 0, #eeeeee 0, #eeeeee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eeeeee 8.5298%, #eeeeee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eeeeee 17.05961%, #eeeeee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eeeeee 25.58941%, #eeeeee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eeeeee 34.11922%, #eeeeee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eeeeee 42.64902%, #eeeeee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eeeeee 51.17883%, #eeeeee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eeeeee 59.70863%, #eeeeee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eeeeee 68.23843%, #eeeeee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eeeeee 76.76824%, #eeeeee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eeeeee 85.29804%, #eeeeee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eeeeee 93.82785%, #eeeeee 100.0%, transparent 100.0%);
+  background-image: linear-gradient(left, transparent 0, #eeeeee 0, #eeeeee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eeeeee 8.5298%, #eeeeee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eeeeee 17.05961%, #eeeeee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eeeeee 25.58941%, #eeeeee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eeeeee 34.11922%, #eeeeee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eeeeee 42.64902%, #eeeeee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eeeeee 51.17883%, #eeeeee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eeeeee 59.70863%, #eeeeee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eeeeee 68.23843%, #eeeeee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eeeeee 76.76824%, #eeeeee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eeeeee 85.29804%, #eeeeee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eeeeee 93.82785%, #eeeeee 100.0%, transparent 100.0%);
+  height: 100%;
+  left: 0;
+  margin: 0 auto;
+  max-width: 68em;
+  opacity: 0.4;
+  position: fixed;
+  right: 0;
+  width: 100%;
+  pointer-events: none;
+  z-index: -1; }
+
+body {
+  background: #c0deed;
+  background-image: url(../img/background.png);
+  background-position: left 40px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+  body header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    background: white;
+    box-shadow: 0px 0px 8px 0px black;
+    z-index: 1000;
+    display: block; }
+    body header:after {
+      content: "";
+      display: table;
+      clear: both; }
+    body header .title {
+      width: 150px;
+      height: 40px;
+      float: left;
+      margin: -15px 20%; }
+    body header .logo img {
+      height: 40px;
+      width: 40px;
+      float: right;
+      position: relative;
+      margin: -10px 50%; }
+  body .tweets-container {
+    padding: 60px;
+    background: transparent;
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+    height: 5000px; }
+    body .tweets-container:after {
+      content: "";
+      display: table;
+      clear: both; }
+    body .tweets-container:after {
+      content: "";
+      display: table;
+      clear: both; }
+    body .tweets-container .tweetBox .boxTitle {
+      background-color: white;
+      border: 1px solid #e1e8ed; }
+      body .tweets-container .tweetBox .boxTitle h1 {
+        font-size: 25px;
+        font-weight: 500;
+        color: gray;
+        text-align: left;
+        padding: 8px; }
+    body .tweets-container .tweetBox .updateTweets {
+      background: white;
+      display: block;
+      height: 40px;
+      border: 1px solid #e1e8ed;
+      text-align: center;
+      display: none; }
+      body .tweets-container .tweetBox .updateTweets .updateFeeds {
+        text-decoration: none;
+        font-size: 14px; }
+        body .tweets-container .tweetBox .updateTweets .updateFeeds .tweetsAlert {
+          padding: 10px;
+          color: red;
+          text-align: center; }
+    body .tweets-container .tweetBox .tweetStream .one-tweet {
+      border: 1px solid #e1e8ed;
+      background: white;
+      display: block;
+      min-height: 51px;
+      padding: 9px 12px; }
+      body .tweets-container .tweetBox .tweetStream .one-tweet .userName a {
+        font-size: 14px;
+        color: gray; }
+        body .tweets-container .tweetBox .tweetStream .one-tweet .userName a:hover {
+          color: black;
+          text-decoration: none; }
+      body .tweets-container .tweetBox .tweetStream .one-tweet .tweetTime {
+        margin: 0 10px;
+        text-align: center;
+        color: gray;
+        font-size: 14px; }
+      body .tweets-container .tweetBox .tweetStream .one-tweet .message {
+        color: black;
+        display: inline-block;
+        font-size: 16px; }

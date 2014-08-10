@@ -1,0 +1,138 @@
+@import 'bourbon/bourbon'
+@import 'neat/neat'
+
+body
+	background: #C0DEED
+	background-image: url(../img/background.png)
+	background-position: left 40px
+	background-attachment: fixed
+	background-repeat: no-repeat
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif
+	
+
+	header
+		position: fixed
+		top: 0
+		width: 100%
+		height: 40px
+		background: white
+		box-shadow: 0px 0px 5px 0px #000000
+		z-index: 1000
+		display: block
+		+clearfix()
+		
+	
+		.title
+			display:inline-block
+			width: 150px
+			height: 40px
+			float: left
+			margin: -15px 20%
+			
+			
+		.logo img
+			display:inline-block
+			+size(40px)
+			float: right
+			position: relative
+			margin: -10px 50%
+	
+	.container
+		padding: 60px
+		background: transparent
+		+clearfix()
+		+outer-container
+
+		.userBox
+			margin-left: 0px
+			height: 20
+			float: left
+			background-color: white
+			border: 1px solid #e1e8ed
+			border-radius: 10px
+
+			.userTitle
+				
+				margin-left: 0px
+				h3
+					font:
+						size: 20px
+						weight: 500
+					color: gray
+					text-align: left
+					padding-left: 8px
+			
+
+		.tweet-container
+			margin-left: 0px
+			height: auto
+			float: right
+			margin: 0 25%
+
+			.boxTitle
+				background-color: white
+				border: 1px solid #e1e8ed
+				margin-left: 0px
+				h1
+					font:
+						size: 20px
+						weight: 500
+					color: gray
+					text-align: left
+					padding-left: 8px
+					
+			
+			.updateTweets
+				background: white
+				display: block
+				height: 40px
+				border: 1px solid #e1e8ed
+				text-align: center
+				display: none
+				margin-left: 0px
+
+				&:hover
+					background-color: #f5f8fa
+
+				.updateFeeds
+					text-decoration: none
+					display:inline-block
+					font-size: 14px
+
+					.tweetsAlert
+						padding: 10px
+						color: red
+						text-align: center
+						
+			.tweetStream 
+				margin-left: 0px
+				
+				.one-tweet
+					margin-left: 0px
+					border: 1px solid #e1e8ed
+					background: white
+					display: block
+					min-height: 51px
+					padding: 9px 12px
+			
+					.userName a
+						font-size:  14px
+						color: gray
+
+						&:hover
+							color: black
+							text-decoration: none
+
+					.tweetTime 
+						margin: 0 10px
+						text-align: center
+						color: gray
+						font-size: 14px
+
+					.message
+						margin: 10px 20px
+						color: black
+						display: inline-block
+						font-size: 16px
+
+	

@@ -1,61 +1,40 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="jquery.js"></script>
-    <script src="data_generator.js"></script>
-    <script src ="jquery.timeago.js"></script>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/data_generator.js"></script>
+    <script src="assets/js/jquery.timeago.js"></script> 
   </head>
-  <body class="twittler-wrapper">
+  <body>
     
-    <script>
-      $(document).ready(function(){
-        var $body = $('body');
-        $body.html('');
+    <header>
+      <div class="title">
+        <img src="assets/img/twittler_title.png" alt="title">
+      </div>
+      <div class="logo">
+        <img src="assets/img/icon.png" alt="logo">
+      </div>
+    </header>
 
-      var showTweet = function(){
-        var index = streams.home.length - 1;
-        while(index >= 0){
-          var tweet = streams.home[index];
-          var message = tweet.message; 
-          var user = '@' + tweet.user; 
-          var tweetTimeStamp = jQuery.timeago(tweet.created_at);
+    <div class = "container">
+      <div class = "tweet-container row span6">
+        <div class = "boxTitle row span6">
+          <h1>Tweets</h1>
+        </div>
+        <div class = "updateTweets row span6">
+          <a href="#" class = "updateFeeds">
+            <p class = "tweetsAlert"></p>
+          </a>
+        </div>
+        <div class = "tweetStream row span6">
+          <!-- Display tweets here-->
+        </div>
+      </div>
+    </div>
 
-          var $tweet = $(
-            '<div class = "one-tweet row span7">' +
-              '<div class = "row">' +
-                '<div class = "userName span3"><a href="#" class = '+ user +'>' +
-                  user +
-                '</a></div>'+
-                '<div class = "tweetTime span3 text-right">'+
-                  tweetTimeStamp + 
-                '</div>'+
-              '</div>'+
-              '<div class = "row">'+
-                '<p class = "span7">'+
-                  message+ 
-                '</p>'+
-                '</div>'+
-              '</div>'+
-            '</div>'
-            );
-          
-          $tweet.appendTo($body);
-          index -= 1;
-        }
-      }
-
-      showTweet(); 
-
-      });
-
-      
-    </script>
-    
-    <div>
-      
-
-    </div> 
   </body>
+
+  <script src="assets/js/twittler.js"></script>
 </html>
